@@ -5,8 +5,8 @@ public class Module_1 {
     static String hello = "Hello";
     static String world = "world!";
 
-    static public String hello() {
-        return hello + ", " + world;
+    static public void greetings(String data) {
+        System.out.println(data);
     }
 
     public static void main(String[] args) {
@@ -20,7 +20,7 @@ public class Module_1 {
         System.out.println(hello + ", " + world);
 
 //        Câu 4:
-        System.out.println(hello());
+        greetings("Hello, world!");
 
     }
 }
